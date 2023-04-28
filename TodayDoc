@@ -1,0 +1,136 @@
+10
+
+Full Shipment - Single store, single consignments:         "order_id": "444386fb-7166-4d8f-bacd-7f16dca4194b_1671107666470", Done: Consignment check krna hai correct.
+
+Full Shipment - Warehouse, One consignment:         "order_id": "7b97f834-83b8-43e1-b25f-02d6a370a2a8_1671107625905" Done.
+
+Full Cancellation - Single consignment:         "order_id": "e150a6a3-3a37-41e8-882c-a3994f260e56_1671107599045" Done. - Amount issue.
+
+Full Cancellation - Warehouse - Single Consignment:         "order_id": "d25fb553-b0ea-4df4-9500-ab9a2f6540b5_1671107560675",- Blocked.
+
+Partially shipped / partially cancelled - Warehouse only:         "order_id": "0541d514-9242-425f-b856-acadfad6515b_1671107529221"- amount not correct. 
+
+Full Shipment - Single store, single consignments:         "order_id": "3b326564-0902-46d6-95a6-85641255a226_1671107493290" - Amount not correct.
+
+Full Cancellation - Single consignment:         "order_id": "d2abc80a-d167-4015-87a6-d5c5c2913114_1671107455552" - In process.
+
+Short Shipment - Warehouse only:         "order_id": "be345147-d576-445f-a5b1-72dd12d1a750_1671107411027" - Need help.
+
+Full Return - Single return request :         "order_id": "c353b8c8-1900-4314-a761-246e871c4c3c_1671107365379" - Amount galat aa rha hai 
+Return to warehouse, which is shipped from store:         "order_id": "7fd32810-686b-42cd-800c-81cb8e9d7ae8_1671107313026"
+Full Return - Multiple return requests:           "order_id": "c588cd34-a1ec-4a6a-9a82-f2b66765a3c9_1671107276312"      
+Full Shipment - Multiple stores, multiple consignments:         "order_id": "75dc39e1-e06e-4577-9048-5ca6eb863dc9_1671107203192"
+Full Shipment - Multiple stores and warehouse, multiple consignments: "order_id": "f1f8ea3f-977f-4514-ae61-edbe6d647a78_1671107086703"
+Full Cancellation - Multiple consignments:         "order_id": "4594487f-6425-43cf-a89a-5cb35d16157e_1671107017459"
+Short Shipment - Single store:         "order_id": "c31ff386-a9cd-43ea-b97f-26587b17c381_1671106933657"
+Short Shipment - Multiple stores:         "order_id": "8a25cbc3-1d3e-4434-8933-4c52f8a8a230_1671106898935"
+Short Shipment - Multiple stores and warehouse: 
+Full Shipment - Multiple stores, multiple consignments:         "order_id": "1958d2fd-31e0-4bc5-ad6e-56ccb9121470_1671106736213"
+Full Shipment - Warehouse, multiple consignments:         "order_id": "4159501a-efb3-467b-804c-eeeb153b1c04_1671106692099"
+Full Shipment - Multiple stores and warehouse, multiple consignments:         "order_id": "2838d130-c32a-4543-845b-05cac420670f_1671106655025"
+Full Cancellation - Multiple consignments:         "order_id": "4aa9ea58-96ca-4ae3-b50b-8067dcfff4f2_1671106607677"
+Short Shipment - Single store:         "order_id": "28e021dc-2f2c-487b-a361-893b93be6386_1671106472292"
+Short Shipment - Multiple stores:         "order_id": "caafa9a2-1341-404d-b94f-cf08ce75875c_1671106408481"
+Short Shipment - Multiple stores and warehouse:         "order_id": "7ef41178-be43-4473-bbb1-151a188e2793_1671106329103"
+Partial Return - Multiple return requests :         "order_id": "2046f63d-e3e6-47e2-bee1-c50f4f066bbb_1671106249184"
+Multiple returns to different stores :         "order_id": "3b33fa74-737a-4bd1-abb9-ba7c3683dd8a_1671106149631"
+Return to store, which is shipped from warehouse :         "order_id": "587fce9a-a52f-43e0-b9fd-c445ee9025bf_1671106085167"
+Full Return - Multiple return requests for a short shipped order :         "order_id": "d50d8e35-fbeb-4698-b7b6-ca8c4b85b3d2_1671106014229"
+Partial Return - Multiple return requests for a short shipped order :         "order_id": "7e67eb01-70be-44d5-8f00-42c71aba0b7a_1671105907752"
+Full Return - Multiple return requests for a short shipped order from warehouse :        "order_id": "5a1b1004-3f19-4deb-99a9-165ffae94a85_1671105770369"
+Full Return - Shipped from multiple store. Single return request :         "order_id": "3c1c76f2-2599-4f0c-bd17-cf16b4a577ba_1671105487289"
+Partial Return - Shipped from multiple store. Partial return to one store :         "order_id": "a92bb793-dee4-455b-9f81-8f8f87abc1a2_1671105355503"
+Full Shipment - 5 Multiple stores, 5 multiple consignments :         "order_id": "ce80a4b9-de1c-49ba-aa1a-a68785dbbb3d_1671105158553"
+Full Cancellation - Warehouse - Multiple Consignment
+
+
+
+
+
+
+
+
+
+24586374-87db-4fe5-a048-34a39c20d763 - cart id
+
+
+BFF CHECKOUT APIs:
+1. 
+
+Faulty one.
+Example: 1e3f2427-a3d0-4fb7-b6eb-049e78fcc3b4_1671087338362
+d09529f6-d528-4931-b621-90324352fc81_1671087518436
+238b60a7-bb62-47cd-adc0-284058472f19_1671101348835/history
+https://order-domain-interface-service-qa.loblaw.digital/api/v1/customers/guest/orders/00db2f95-3ef9-48c2-b9f1-ce24cddf17db_1671102106123/history
+BFF Order APIs:
+1. Place Order
+2. Cancel an Order
+3. Order details
+4. Order Confirmation
+5. Order History
+
+https://jira.lblw.cloud/browse/LDP-6784 - Test krna hai - Closed
+Voucher description:
+In order to fix this, we introduced new error message. "ELIGIBLE_BUT_NOT_APPLIED"
+
+Scenario is Voucher is Valid but will not be applied because of the existing deals. So whichever promotion either deal or voucher has higher priority(lower in number) will be applicable.
+https://jira.lblw.cloud/browse/LDP-6734 - Tested and closed. AB $3.99 aur $17 price hai.
+
+https://jira.lblw.cloud/browse/LDP-6730 - Retested it but issue is there.
+https://jira.lblw.cloud/browse/LDP-9430 - Created one bug.
+https://jira.lblw.cloud/browse/LDP-6734 - Need help from Order and PPE team.
+
+Bugs are still open: 
+1. When "STANDARD" Shipping method is applied when the cart total is greater than $50 then shipping tax is there.
+2. Also, the price of shipping method is different as per the PROD.
+3. BLOCKER: FOR PCO USER, I AM NOT ABLE TO SUBMIT ANY ORDER.
+
+
+Create shipping address: failed
+Create delivery address with invalid user Id
+Sets delievery address:failed
+Sets Delivery address with invalid user ID
+Sets Delivery address with invalid addressID
+All Delivery modes: Invalid user failed.
+PUT- Delivery mode: Invalid user failed.
+
+
+b64c0197-d50c-4aee-a0b1-95ee1da21e15_1670955537828"
+Empty token vala puchna hai mtlb curl hi leni hai usse
+
+himanshu963954632@gmail.com
+pcid: fad37fd9-8db5-446a-800f-fd5aa221cc49
+cart id: 1bf70133-a300-460e-a7e1-e2893dd90957
+address id shipping: 63a31a4e-561b-4585-8e3e-f817dd791ac5
+address id billing: 2db92295-62d3-47c4-9953-50a3836d1530
+payment id: fad37fd9-8db5-446a-800f-fd5aa221cc49-f4458e7f-659f-4469-afd0-9fe27e5bdeff
+
+https://jira.lblw.cloud/browse/LDP-9434
+https://jira.lblw.cloud/browse/LDP-7537
+https://jira.lblw.cloud/browse/LDP-7534
+https://jira.lblw.cloud/browse/LDP-7532
+https://jira.lblw.cloud/browse/LDP-7118
+https://jira.lblw.cloud/browse/LDP-7117
+        "order_id": "41036287-040b-48f6-884c-9edd02346fea_1671011733377",
+        "order_id": "ce02cdbe-7886-480d-91ce-8a3d4065cd93_1671011746317",
+        "order_id": "ecb3b031-532c-463f-8607-c6f0ac82362a_1671012000473",
+        "order_id": "b77174db-8a61-43c8-9647-417627d9dd62_1671013821221",
+        "order_id": "d4e501a7-9a45-4b7b-af69-acbe7c8cd423_1671015564192",
+
+
+NOTIFICATION:
+1. order Confirmation
+2. Full order shipped with one shop
+3. Split order shipped with different shop
+4. Order cancel by user
+5. Order Cancel by RU.
+6. Order return.
+for 2 orders, Mail me TAX me decimal ni hai, partial me dono product aa rhe hai.
+
+
+
+
+GET- Order History API.
+Invalid user ID. Failed for logged-in and Anonymous
+GET - Order Confirmation API.
+Null guid, 
